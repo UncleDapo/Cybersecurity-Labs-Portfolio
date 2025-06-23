@@ -74,7 +74,7 @@ Cybersecurity-Labs-Portfolio/
 
 Interested in discussing these labs or a cybersecurity opportunity?
 
-- 📧 Email: [your_email@example.com]
+- 📧 Email: 
 - 🔗 LinkedIn: [https://www.linkedin.com/in/oladapoabolurin]
 
 ---
