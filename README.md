@@ -65,7 +65,7 @@ Cybersecurity-Labs-Portfolio/
 
 ## 📸 Sample Screenshots
 
-- ![Mutillidae Running](Lab01_Initial_VM_Setup/Screenshots/mutillidae_access_from_kali.png)
+- ![Mutillidae Running](<Lab01_Initial_VM_Setup/Screenshots/mutillidae_access_from_kali.png>)
 - ![TOR .onion Output](Lab05_Tor_Hidden_Services/screenshots/onion-url.png)
 - ![AV Scan Email](Lab10_AV_Automation/screenshots/clamav-alert-email.png)
 
@@ -75,7 +75,7 @@ Cybersecurity-Labs-Portfolio/
 
 Interested in discussing these labs or a cybersecurity opportunity?
 
-- 📧 Email: 
+- 📧 Email: abolurinoladapo@gmail.com
 - 🔗 LinkedIn: [https://www.linkedin.com/in/oladapoabolurin]
 
 ---
