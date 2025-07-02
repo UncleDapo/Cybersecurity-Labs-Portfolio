@@ -34,10 +34,10 @@ Cybersecurity-Labs-Portfolio/
 ├── Lab01_Initial_VM_Setup/
 │   ├── README.md
 │   ├── screenshots/
-├── Lab02_User_Agent_Spoofing/
+├── Lab02_Basic HTML, CSS, and FTP Server Setup/
 │   ├── README.md
 │   ├── screenshots/
-├── Lab03_Web_App_Scanning/
+├── Lab03_XSS, CSRF, and BeEF/
 │   ├── README.md
 │   ├── screenshots/
 ├── Lab05_Tor_Hidden_Services/
@@ -65,7 +65,7 @@ Cybersecurity-Labs-Portfolio/
 
 ## 📸 Sample Screenshots
 
-- ![Mutillidae Running](Lab01_Initial_VM_Setup/screenshots/mutillidae.png)
+- ![Mutillidae Running](Lab01_Initial_VM_Setup/Screenshots/mutillidae access from kali.png)
 - ![TOR .onion Output](Lab05_Tor_Hidden_Services/screenshots/onion-url.png)
 - ![AV Scan Email](Lab10_AV_Automation/screenshots/clamav-alert-email.png)
 
