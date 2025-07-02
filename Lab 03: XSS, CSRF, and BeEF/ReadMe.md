@@ -32,7 +32,48 @@ This lab explores the exploitation of web vulnerabilities including **Stored XSS
   ```html
   <i onmouseover="window.document.getElementById('f').submit()">oabolurin will get A+ in this course</i>
 
+---
 
+### ✅ Part 3: BeEF Setup and Hook
+- Installed and ran beef-xss on Kali
+- Created a hook-enabled HTML page (testanswers.html)
+- Hooked a Windows 10 browser by redirecting via XSS payload
+- Verified BeEF control panel is capturing browser
+
+📸 See screenshots/slide04.png and HTML file testanswers.html
+
+---
+
+### ✅ Part 4: Hooking via Mutillidae Blog
+- Used a modified blog entry with BeEF hook
+- Logged into Mutillidae as victim user
+- Hovered to trigger browser hook to BeEF panel
+
+📸 See screenshots/slide05.png
+
+---
+
+### ✅ Part 5: System Fingerprinting via BeEF
+- Verified virtual machine detection via hardware.gpu
+- I dentified host environment in BeEF details tab
+
+📸 See screenshots/slide06.png
+
+---
+
+### ✅ Part 6: Social Engineering via BeEF
+- Executed “Fake Flash Update” attack
+- Collected dummy Google credentials from victim
+- Verified harvested data from BeEF control panel
+
+📸 See screenshots/slide07.png
+
+---
+
+### 📂 Files Included
+- testanswers.html – Hook-enabled attacker page for BeEF
+
+screenshots/ – Contains slide screenshots (7 total)
 
 ---
 
