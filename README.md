@@ -75,7 +75,7 @@ Cybersecurity-Labs-Portfolio/
 
 Interested in discussing these labs or a cybersecurity opportunity?
 
-- 📧 Email: abolurinoladapo@gmail.com
+- 📧 Email: 
 - 🔗 LinkedIn: [https://www.linkedin.com/in/oladapoabolurin]
 
 ---
