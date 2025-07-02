@@ -16,13 +16,15 @@ This portfolio demonstrates practical cybersecurity skills and lab-based explora
 
 ## 📘 Labs Overview
 
-| Lab # | Title                                  | Description                                                    | Tools & Skills Used             |
-|-------|----------------------------------------|----------------------------------------------------------------|----------------------------------|
-| Lab 01 | Initial VM Setup                      | Build and configure an isolated cybersecurity lab with multiple OS environments. | VMware, Ubuntu, Windows, Kali|
-| Lab 02 | Basic HTML, CSS, and FTP Server Setup | Web development (HTML and CSS) and server interaction skill. | Windows 10, Ubuntu (Web & FTP Server) |
-| Lab 03 | Web App Scanning                      | Perform vulnerability scans on intentionally vulnerable apps.   | Nikto, Skipfish, OWASP Juice Shop |
-| Lab 05 | TOR Hidden Services                   | Host a private web service using TOR with hashed control port auth. | TOR, Apache2, Anonymity Tools   |
-| Lab 10 | AV Automation and Alerting            | Use ClamAV and Sendmail to automate scans and alert admins.     | Bash scripting, ClamAV, cron, Sendmail |
+| Lab # | Title                                  | Description                                                                                      | Tools & Skills Used             |
+|-------|----------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------|
+| Lab 01 | Initial VM Setup                      | Build and configure an isolated cybersecurity lab with multiple OS environments.                 | VMware, Ubuntu, Windows, Kali|
+| Lab 02 | Basic HTML, CSS, and FTP Server Setup | Web development (HTML and CSS) and server interaction skill.                                     | Windows 10, Ubuntu (Web & FTP Server) |
+| Lab 03 | XSS, CSRF, and BeEF                   | Exploitation of web vulnerabilities including Stored XSS, Cross-Site Request Forgery (CSRF)
+                                                   and Browser Exploitation Framework (BeEF), techniques on a vulnerable web app: OWASP Mutillidae. | Kali, Ubuntu, Windows 10 |
+| Lab 04 | Web App Scanning                      | Perform vulnerability scans on intentionally vulnerable apps.                                    | Nikto, Skipfish, OWASP Juice Shop |
+| Lab 05 | TOR Hidden Services                   | Host a private web service using TOR with hashed control port auth.                              | TOR, Apache2, Anonymity Tools   |
+| Lab 10 | AV Automation and Alerting            | Use ClamAV and Sendmail to automate scans and alert admins.                                      | Bash scripting, ClamAV, cron, Sendmail |
 
 ---
 
