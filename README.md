@@ -22,7 +22,8 @@ This portfolio demonstrates practical cybersecurity skills and lab-based explora
 | Lab 02 | Basic HTML, CSS, and FTP Server Setup | Web development (HTML and CSS) and server interaction skill.                                     | Windows 10, Ubuntu (Web & FTP Server) |
 | Lab 03 | XSS, CSRF, and BeEF                   | Exploitation of web vulnerabilities including Stored XSS, Cross-Site Request Forgery (CSRF) and Browser Exploitation Framework (BeEF), techniques on a vulnerable web app: OWASP Mutillidae. | Kali, OWASP Mutillidae, Ubuntu, Windows 10 |
 | Lab 04 | OWASP Top Ten Attacks                      |  Directory Traversal and XML External Entity (XXE) Injection                                    | Windows Server 2016, Burp Suite, OWASP Mutillidae, Kali  |
-| Lab 05 | Web App Enumeration & HTTP                   | web application enumeration and HTTP traffic analysis                              | Burp Suite, OWASP Mutillidae, Kali   |
+| Lab 05 | Web App Enumeration and HTTP                   | web application enumeration and HTTP traffic analysis                              | Burp Suite, OWASP Mutillidae, Kali   |
+| Lab 06 | PHP and SQL                   |  PHP scripting and MySQL database management                              | Windows 10, Notepad++, Ubuntu, MySQL   |
 | Lab 10 | AV Automation and Alerting            | Use ClamAV and Sendmail to automate scans and alert admins.                                      | Bash scripting, ClamAV, cron, Sendmail |
 
 ---
@@ -44,6 +45,9 @@ Cybersecurity-Labs-Portfolio/
 │   ├── README.md
 │   ├── screenshots/
 ├── Lab05_Web App Enumeration & HTTP/
+│   ├── README.md
+│   ├── screenshots/
+├── Lab06_PHP & SQL/
 │   ├── README.md
 │   ├── screenshots/
 └── README.md  ← This file
