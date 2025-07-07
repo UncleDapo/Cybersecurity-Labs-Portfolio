@@ -44,8 +44,7 @@ This repository documents my work in Web Security focusing on OWASP Top Ten Atta
 
 📸 See `screenshots/slide 6.png`
 
-## Screenshots
-All required screenshots are available in the [Screenshots](/Screenshots) directory.
+
 
 # Lab 04 Findings Report
 
