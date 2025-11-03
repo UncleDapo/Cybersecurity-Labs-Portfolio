@@ -14,17 +14,21 @@ Written By: Oladapo Abolurin
 1.	 Statement of Management Commitment
 
 At Linkbridge Incident response group, we are fully committed to protecting digital assets and ensuring the continuity of our client’s business operations. This policy document reflects our dedication and commitment to a well structured and prompt response to information security incident management. Our management team fully supports the development, implementation, and continuous improvement of our incident response capabilities. All staff are expected to cooperate with the Incident Response Team (IRT) and follow the procedures outlined in this document to achieve required goals and objectives.
+
 2.	 Purpose of the Policy
 
 The main purpose of this policy is to establish a clear, well-structured approach to managing information security incidents that may impact the clients of Linkbridge Incident Response Group. This document exists to communicate to our business partners that the confidentiality, integrity, and availability of their company’s systems, facilities, and data are protected. This policy outlines the business goals of incident identification, containment, and eradication, and disaster recovery. Additionally, this document states our commitment to compliance with legal, regulatory, and contractual obligations.
+
 3.	 Objectives of the Policy
 
 The goals of this Incident Response Policy are to create a proactive and uniform strategy to address cybersecurity issues that are consistent with NIST criteria. This policy aims to guarantee that risks are detected, contained, and mitigated in a timely manner, decreasing possible harm and recovery time. It provides a framework for the management of issues across all departments, emphasizing clarity in roles, and duties. It also addresses the need to ensure legal and regulatory compliance by maintaining thorough documentation and being audit ready. By developing clear, repeatable incident response objectives, this policy will increase organizational readiness and consistency in high-stress circumstances. It will strengthen the security of vital information assets, including as customer data, financial records, and intellectual property.
  
 A heavy focus is put on continuous learning by integrating post-incident evaluations, threat intelligence updates, and performance measurements, allowing the company to develop its defenses over time. This policy promotes employee empowerment by requiring frequent security awareness training and simulated attack exercises to increase incident reporting and minimize human error. Furthermore, by establishing degrees of authority and decision- making tasks, it assures responsibility, promotes effective communication, and speeds up reaction actions. Collectively, these objectives not only decrease risk exposure but also contribute to the development of a robust, security-conscious culture that promotes long- term company continuity and reputational trust.
+
 4.	 Scope of the Policy
 
 This policy will be relevant in regards to the business operations of all Linkbridge Incident Response Group employees and all Linkbridge Incident Response Group owned assets. Third party users, vendors, contractors, and other individuals or groups who will have access to Linkbridge Incident Response Group assets for the purposes of their work will also be considered within the domain of this policy's scope. The policy will be relevant in any context in which a Linkbridge Incident Response Group employee or third party entity is performing work regardless of physical location. All devices and tools used for the purposes of work fall within the scope of this policy regardless of their ownership (e.g. A personally owned device that is used for Linkbridge Incident Response Group work activities through a BYOD policy will fall within this policy’s scope). This will remain true when the device is not in use for purposes of work, as if at any point in time it is used for work it then may contain sensitive information.
+
 5.	 Definition of Information Security Incidents
 
 An Information Security Incident is any event that has the potential to compromise the confidentiality, integrity, or availability of information or information systems. This includes, but is not limited to:
@@ -45,11 +49,13 @@ An Information Security Incident is any event that has the potential to compromi
 ●	Physical security breaches impacting IT infrastructure
  
 Incidents may originate internally or externally and may involve employees, contractors, third-party vendors, or unknown external actors. Any device, whether corporate-owned or personally owned under a BYOD policy, used for business activities may at any time be subject to monitoring and incident investigation.
+
 6.	 High-Level Organizational Structure and Delineation of Roles
 
 Within Linkbridge, there exists the CSIRT team, external actors co-operating with the CSIRT team, and management co-ordinating, planning, and scoping the responsibilities of the CSIRT team. At the top of the chain of command lies the CISO, who is responsible for the creation of indecent response policies, procedures, playbooks, and other documents. In extreme cases the CISO may also be responsible for signing off on executive decisions necessary to respond to extreme threats to the company.
 Below the CISO lies the CSIRT team proper. Within the team the roles will consist of managers, incident handlers, communications staff, and compliance staff. The manager(s) will be responsible for all executive decisions that do not require the intervention of the CISO. Additionally, they will be the first person to be notified of a confirmed adverse incident to ensure a proper response from the team. Incident handlers are the first responders to an incident. Everybody within the team with the appropriate technical ability should feel empowered to act in the capacity of an incident handler. Incident handlers are responsible for the immediate measures taken to contain, remove, or mitigate the effects of a threat after its detection. Communication staff are responsible for the flow of information within the organization; They must ensure that knowledge of incidents and the business’ security posture is known by all relevant parties. Compliance staff ensure ongoing agreement between the business’ practices, and the laws/regulations that bind it. Their role is the ongoing review of Linkbridge procedures to ensure that changes do not put the company outside the scope of permitted behaviours.
 Outside of Linkbridge are its clients, whom we serve our incident response services to. While they function in an external capacity to the business, we expect open communication from their own staff to ensure that our services to them function optimally. They are responsible for behaving within the scope of Linkbridge’s Acceptable Use Policy, and ensuring that the necessary infrastructure is in place to allow Linkbridge to respond to their incident response concerns.
+
 7.	 Levels of Authority.
 
 In an organization or a company incident response framework “Levels of Authority” refers to the different roles and the specific powers or responsibilities assigned to each during a security incident. These levels ensure that decisions are made efficiently and by the right people depending on the severity and scope of the incident. From executive leaders to front line responders every role has a clear function in identifying, managing and resolving security events.
@@ -57,6 +63,7 @@ The Chief Information Officer (CISO) at the top level holds executive authority 
  
 systems. Department heads provide support by approving downtime and communicating with staff while technical staff and analysts handle the hands-on tasks to contain and recover from the incident.
 Defining these levels of authority will ensure a structured and accountable response to any cybersecurity threat. It will prevent confusion, reduce response time and empower the right people to act quickly when an incident occurs. In urgent situations, pre approved emergency powers allow responders to take critical actions without delay and help protect the organization’s data, reputation and operations.
+
 8.	 Reporting Requirements (Internal and External)
 
 Internal Reporting:
