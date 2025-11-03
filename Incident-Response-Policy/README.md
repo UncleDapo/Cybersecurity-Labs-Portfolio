@@ -122,6 +122,6 @@ Author: Oladapo Abolurin
 
 Role: Cybersecurity & Incident Response
 
-LinkedIn: [Your LinkedIn Profile]
-
-GitHub: [Your GitHub Profile URL]
+📧 [oladapoabolurin@gmail.com](mailto:oladapoabolurin@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/oladapoabolurin/)  
+💻 [GitHub Portfolio](https://github.com/UncleDapo)
