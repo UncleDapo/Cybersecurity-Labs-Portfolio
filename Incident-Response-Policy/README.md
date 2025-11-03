@@ -4,7 +4,7 @@
 
 This repository contains a professionally developed Incident Response (IR) Policy designed to help organizations prepare for, detect, and respond to cybersecurity incidents efficiently and consistently.
 
-The policy aligns with the NIST Computer Security Incident Handling Guide (SP 800-61r2) and ISO/IEC 27035 standards for incident management.
+The policy aligns with the NIST Computer Security Incident Handling Guide and ISO/IEC standards for incident management.
 It defines management commitments, team roles, communication flows, and escalation procedures that enable a structured approach to handling security incidents — minimizing business disruption and data loss.
 
 # 🎯 Purpose
