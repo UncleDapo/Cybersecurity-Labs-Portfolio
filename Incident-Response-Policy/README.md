@@ -85,9 +85,9 @@ Form the governance backbone of a Cybersecurity Incident Response Plan (CIRP).
 
 # 🧩 Project Components in this Repository
 
-Incident_Response_Policy.pdf / .docx — Formal policy document
+Incident-Response-Policy.txt — Formal policy document
 
-Incident_Response_Playbook.pdf (optional) — Step-by-step procedures for common incident types
+Incident-Response-Playbook.md — Step-by-step procedures for common incident types
 
 README.md — Project overview and context (this file)
 
