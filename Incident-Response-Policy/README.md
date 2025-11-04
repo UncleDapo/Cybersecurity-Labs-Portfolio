@@ -121,7 +121,6 @@ It reflects my academic and professional development in cybersecurity, incident 
 Author: Oladapo Abolurin
 
 Role: Cybersecurity & Incident Response
-
-📧 [oladapoabolurin@gmail.com](mailto:oladapoabolurin@gmail.com)  
+  
 🔗 [LinkedIn](https://www.linkedin.com/in/oladapoabolurin/)  
 💻 [GitHub Portfolio](https://github.com/UncleDapo)
