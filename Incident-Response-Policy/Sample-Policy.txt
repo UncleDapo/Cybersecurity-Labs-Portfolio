@@ -4,7 +4,7 @@ Organization Name: Linkbridge incident response group
 
 Policy Number: STS-SEC-IRP-001
 
-Effective Date: May 16, 2025
+Effective Date: November 3 , 2025
 
 Review Cycle: Annual
 
