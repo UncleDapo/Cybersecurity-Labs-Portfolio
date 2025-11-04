@@ -13,7 +13,7 @@ This lab demonstrates how to automate malware scanning and alerting on a Linux w
 ## Deliverables
 - `simple_scan.sh` — manual scan script that logs results to `/var/log/clamav/manual_clamscan.log`.
 - `auto_clam_scan` — cron script placed in `/etc/cron.hourly/` that runs scans and emails alerts when infections are found.
-- Sendmail configuration snippets and `gmail-auth` file (note: DO NOT commit real credentials to public repos).
+- Sendmail configuration snippets and `gmail-auth` file.
 - Screenshots showing scan log output and alert emails.
 
 ## Tools & Technologies
@@ -25,8 +25,8 @@ This lab demonstrates how to automate malware scanning and alerting on a Linux w
 - Gmail (app password for SMTP relay)
 
 ## Security & Privacy Notes
-- **Never** commit plaintext passwords or app passwords to a public repository. Replace secrets with placeholders (e.g., `<GMAIL_ADDRESS>`, `<APP_PASSWORD>`).
-- Sanitize logs/screenshots to remove any sensitive data (real email addresses, network ranges, or production hostnames) before publishing.
+- Secrets have been replaced with placeholders (e.g., `<GMAIL_ADDRESS>`, `<APP_PASSWORD>`).
+- Screenshots have been redacted to remove any sensitive data.
 
 ## Installation of ClamAV 
 ```bash
