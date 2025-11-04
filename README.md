@@ -6,6 +6,7 @@ Welcome to my Cybersecurity lab portfolio, this repository showcases hands-on la
 
 ## 🎯 Objectives
 This portfolio demonstrates practical cybersecurity skills and lab-based exploration of:
+- Incident Response Policy and playbook
 - Threat detection and prevention
 - Network and system hardening
 - Vulnerability assessment tools
@@ -32,6 +33,10 @@ This portfolio demonstrates practical cybersecurity skills and lab-based explora
 
 ```bash
 Cybersecurity-Labs-Portfolio/
+├── Incident-Response-Policy/
+│   ├── README.md
+│   ├── Incident-Response-Playbook.md/
+│   ├── Sample-Policy.txt/
 ├── Lab01_Initial_VM_Setup/
 │   ├── README.md
 │   ├── screenshots/
@@ -48,6 +53,9 @@ Cybersecurity-Labs-Portfolio/
 │   ├── README.md
 │   ├── screenshots/
 ├── Lab06_PHP & SQL/
+│   ├── README.md
+│   ├── screenshots/
+├── Lab010_Av Automation and Alerting/
 │   ├── README.md
 │   ├── screenshots/
 └── README.md  ← This file
@@ -71,9 +79,7 @@ Cybersecurity-Labs-Portfolio/
 
 Interested in discussing these labs or a cybersecurity opportunity?
 
-- 📧 Email: 
-- 🔗 LinkedIn: [https://www.linkedin.com/in/oladapoabolurin]
-
+🔗 [LinkedIn](https://www.linkedin.com/in/oladapoabolurin/)
 ---
 
 > "Security is not a product, but a process." – Bruce Schneier
