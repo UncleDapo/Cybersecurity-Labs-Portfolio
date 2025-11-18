@@ -79,7 +79,7 @@ Cybersecurity-Labs-Portfolio/
 
 Interested in discussing these labs or a cybersecurity opportunity?
 
-
+🔗 [LinkedIn](https://www.linkedin.com/in/oladapoabolurin/)
 ---
 
 > "Security is not a product, but a process." – Bruce Schneier
