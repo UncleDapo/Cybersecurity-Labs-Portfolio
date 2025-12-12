@@ -19,7 +19,9 @@ I activated and used the P2, 30-day trial
 No costs are required — everything here works with:
 
 Entra ID free
-Entra ID P2 trial
+
+Entra ID P2 trial (it is important to note that at least a P1 is required to be able to create conditional access policies)
+
 Azure 30-day free tenant
 
 Create Test Users
@@ -29,7 +31,7 @@ Microsoft Entra ID → Users → New User
 
 Create these users:
 
-1. lab-admin (Global Admin)
+1. lab-admin (Global Admin) - the default user 
 
 2. staff1
 
