@@ -1,4 +1,4 @@
-🧪 Zero Trust IAM Lab Guide — Microsoft Entra ID (Azure AD)
+🧪 Zero Trust IAM  — Microsoft Entra ID (Azure AD)
 --
 Objective:
 The objective of this project is to build a functional Zero Trust Identity & Access Management lab using Microsoft Entra ID to practice MFA enforcement, Conditional Access design, break-glass accounts,
