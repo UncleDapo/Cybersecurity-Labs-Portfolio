@@ -6,6 +6,7 @@ Welcome to my Cybersecurity lab portfolio, this repository showcases hands-on la
 
 ## 🎯 Objectives
 This portfolio demonstrates practical cybersecurity skills and lab-based exploration of:
+- Cloud Technology
 - Incident Response Policy and playbook
 - Threat detection and prevention
 - Network and system hardening
@@ -33,6 +34,9 @@ This portfolio demonstrates practical cybersecurity skills and lab-based explora
 
 ```bash
 Cybersecurity-Labs-Portfolio/
+├── Azure Identity & Access with Microsoft Entra ID/
+│   ├── README.md
+│   ├── Screenshots/
 ├── Incident-Response-Policy/
 │   ├── README.md
 │   ├── Incident-Response-Playbook.md/
