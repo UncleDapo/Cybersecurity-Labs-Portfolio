@@ -40,6 +40,8 @@ Create these users:
 4. Emergency-admin1
 
 5. Emergency-admin1
+
+📸 Screenshot for Users
    
 Create the Required Groups
 -
@@ -53,6 +55,8 @@ Staff → add staff1
 Students → add student1
 
 BreakGlass → add Emergency-admin1 + Emergency-admin2
+
+📸 Screenshot for Groups
 
 DISABLE SECURITY DEFAULTS
 -
@@ -122,6 +126,7 @@ Select the sign-in
 Confirm it shows:
 "Would have required: MFA"
 
+📸 Screenshot for MFA Required & MFA Sign in
 
 
 🚀CONDITIONAL ACCESS POLICY B (Enforce MFA for Students ONLY When Off Trusted Network);
@@ -146,6 +151,9 @@ Enable → Report-only
 
 Create
 
+📸 Screenshot for Students MFA required config
+
+
 Validate With What-If Tool
 -
 Path:
@@ -153,7 +161,7 @@ Conditional Access → What If
 
 User: student1
 
-App: Microsoft Azure Management
+Target Resource: User actions
 
 Location: choose a non-trusted IP
 
@@ -165,6 +173,7 @@ Student MFA policy → Applies
 
 Staff MFA policy → Does NOT apply
 
+📸 Screenshot for What If (a) & (b)
 
 
 ## 🛟 Break-Glass Safety Net
@@ -201,8 +210,9 @@ Users → Exclude → Select BreakGlass group
 
 Save
 
----
+📸 Screenshot for Conditional Access Policies
 
+---
 
 
 ## 🚫 Block Legacy Authentication
@@ -233,6 +243,8 @@ Grant → Block access
 Enable = Report-only (first!)
 
 Create
+
+📸 Screenshot for CA -Block Legacy Authentication
 
 ---
 ### 1. Enforced MFA for Staff  
