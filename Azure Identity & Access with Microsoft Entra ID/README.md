@@ -3,6 +3,8 @@
 Objective:
 The objective of this project is to build a functional Zero Trust Identity & Access Management lab using Microsoft Entra ID to practice MFA enforcement, Conditional Access design, break-glass accounts,
 named locations, and modern identity security fundamentals.
+📸 Zero Trust Architecture Diagram
+<img width="6924" height="1746" alt="Zero Trust Architecture" src="https://github.com/user-attachments/assets/1b174568-2317-4efc-b413-b45091594035" />
 
 Below is a summary of the key configurations and controls I implemented to achieve this and screenshots of the lab is also provided.
 
@@ -42,6 +44,8 @@ Create these users:
 5. Emergency-admin1
 
 📸 Screenshot for Users
+<img width="1919" height="912" alt="Users" src="https://github.com/user-attachments/assets/18f731c3-e19c-46ea-8417-ec0d63781810" />
+
    
 Create the Required Groups
 -
@@ -57,6 +61,8 @@ Students → add student1
 BreakGlass → add Emergency-admin1 + Emergency-admin2
 
 📸 Screenshot for Groups
+<img width="1919" height="912" alt="Groups" src="https://github.com/user-attachments/assets/3fe0bf29-a35a-4ae2-a2a2-a0d32939cd2e" />
+
 
 DISABLE SECURITY DEFAULTS
 -
@@ -127,6 +133,10 @@ Confirm it shows:
 "Would have required: MFA"
 
 📸 Screenshot for MFA Required & MFA Sign in
+<img width="1913" height="975" alt="MFA required" src="https://github.com/user-attachments/assets/9e57c5f8-b25c-402e-8c94-5f7570bee68a" />
+
+<img width="1912" height="969" alt="MFA sign in" src="https://github.com/user-attachments/assets/afbb806d-56f2-4492-b4ae-e606c2652c55" />
+
 
 
 🚀CONDITIONAL ACCESS POLICY B (Enforce MFA for Students ONLY When Off Trusted Network);
@@ -152,6 +162,8 @@ Enable → Report-only
 Create
 
 📸 Screenshot for Students MFA required config
+<img width="1919" height="917" alt="Students MFA required config" src="https://github.com/user-attachments/assets/839ab7e6-bf8d-44bc-9659-c62c39e2f83f" />
+
 
 
 Validate With What-If Tool
@@ -174,6 +186,10 @@ Student MFA policy → Applies
 Staff MFA policy → Does NOT apply
 
 📸 Screenshot for What If (a) & (b)
+<img width="1919" height="917" alt="What If (a)" src="https://github.com/user-attachments/assets/f46e9b08-6f83-4f9c-8e0b-fb33915f9985" />
+<img width="1919" height="912" alt="What If (b)" src="https://github.com/user-attachments/assets/9252f7de-add3-40a7-8e61-8e56c1c48e5d" />
+
+
 
 
 ## 🛟 Break-Glass Safety Net
@@ -211,6 +227,8 @@ Users → Exclude → Select BreakGlass group
 Save
 
 📸 Screenshot for Conditional Access Policies
+<img width="1919" height="918" alt="Conditional Access Policies" src="https://github.com/user-attachments/assets/3ff6b500-8d63-473b-82de-a1e810d7c5fd" />
+
 
 ---
 
@@ -245,6 +263,8 @@ Enable = Report-only (first!)
 Create
 
 📸 Screenshot for CA -Block Legacy Authentication
+<img width="1919" height="918" alt="CA -Block Legacy Authentication" src="https://github.com/user-attachments/assets/2bf6398d-0d57-458e-a203-47aeb7cd0ebc" />
+
 
 ---
 ### 1. Enforced MFA for Staff  
