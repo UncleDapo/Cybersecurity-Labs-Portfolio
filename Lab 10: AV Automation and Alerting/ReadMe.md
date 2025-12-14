@@ -56,6 +56,7 @@ LOG_FILE="/var/log/clamav/manual_clamscan.log"
 
 
 **📸Screenshot of the scan_log.png — terminal showing cat /var/log/clamav/manual_clamscan.log (evidence of run)**
+<img width="658" height="303" alt="scan_log" src="https://github.com/user-attachments/assets/0f42f929-2a18-4cf9-b256-56201a60c452" />
 
 
 # Installation and configuration Send Mail
@@ -92,6 +93,7 @@ Once in the new directory, i created an auth file with a following content:
 i went ahead to create a hash map for the authentication file:
 
 `makemap hash gmail-auth < gmail-auth`
+![gmail page](https://github.com/user-attachments/assets/3a43dd1c-aef0-43db-9091-cfea1a9ad888)
 
 before using a text editor (notepad) to edit the send mail configuration file by placing the following lines into  `/etc/mail/sendmail.mc` right above the first “MAILER” definition line:
 
@@ -123,6 +125,7 @@ The email may take a minute or so to come in so be patient…
 
 
 **📸screeshot of the inbox_email.png — Gmail (or recipient inbox) showing the test email sent from server**
+<img width="1366" height="573" alt="inbox_email" src="https://github.com/user-attachments/assets/722c0988-8c86-4030-8f94-e6cc1a4f4971" />
 
 
 # Automate the AV scan and email alert with a cron job
@@ -162,6 +165,7 @@ fi
 To ensure that the script has execute permissions `chmod +x /etc/cron.hourly/auto_clam_scan`
 
 **📸slide03_cron_email.png — Inbox with automated cron-triggered alert email (or modified no-threat email).**
+<img width="1287" height="918" alt="cron_email" src="https://github.com/user-attachments/assets/7c60212f-573f-468c-beac-6ecc064c3a6c" />
 
 Run the script manually, If you have no infections, no email will be generated. However, the script can be adjusted so that it sends out an email notification when NO threats are detected.
 
