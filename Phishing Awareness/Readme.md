@@ -6,10 +6,10 @@
 
 ## Project Overview
 
-This project demonstrates a **safe and ethical phishing-awareness simulation** designed to help understand common phishing techniques and how user education can reduce risk.
-The lab was conducted in a **closed virtual environment** using **dummy users only**, with **no credential capture** and **no external email delivery**.
+This project demonstrates a safe and ethical phishing-awareness simulation designed to help understand common phishing techniques and how user education can reduce risk.
+The lab was conducted in a closed virtual environment using dummy users only, with no credential capture and no external email delivery.
 
-The goal is **awareness and defensive learning**, not exploitation.
+The goal is awareness and defensive learning, not exploitation.
 
 ---
 
@@ -17,7 +17,7 @@ The goal is **awareness and defensive learning**, not exploitation.
 
 * Understand how phishing simulations work end-to-end
 * Learn how attackers use severity, urgency and generic messaging
-* Practice converting phishing clicks into **security awareness moments**
+* Practice converting phishing clicks into security awareness moments
 * Safely observe email content, headers, and user behavior
 * Gain hands-on experience with GoPhish in a controlled lab environment
 
@@ -27,8 +27,8 @@ The goal is **awareness and defensive learning**, not exploitation.
 
 ### Platform
 
-* **VMware Workstation**
-* **Windows 10 Virtual Machine**
+* VMware Workstation
+* Windows 10 Virtual Machine
 * Network mode: **NAT**
 
 ### Tools Used
@@ -90,7 +90,7 @@ GoPhish → MailHog → User Opens Email → Clicks Link → Awareness Page
 
 ### Step 2: Install and Run MailHog
 
-MailHog captures all emails locally so **nothing leaves the lab**.
+MailHog captures all emails locally so that nothing leaves the lab.
 
 1. Download the MailHog Windows binary, i downloaded the MailHog_windows_386 for my 32bit Windows VM
 2. Place it in a folder or under downloads:
@@ -128,7 +128,7 @@ MailHog captures all emails locally so **nothing leaves the lab**.
    ```cmd
    gophish.exe
    ```
-4. Watch the terminal for the **generated admin password** in more recent versions. For V 0.9.0 the password is hardcoded as
+4. Watch the terminal for the generated admin password in more recent versions. For V 0.9.0 the password is hardcoded as
 
 5. Username: admin
    Password: gophish
@@ -161,7 +161,7 @@ MailHog captures all emails locally so **nothing leaves the lab**.
 
 ### Step 5: Configure SMTP (MailHog)
 
-1. Go to **Sending Profiles**
+1. Go to Sending Profiles
 2. Create a new profile:
 
    * Name: `MailHog SMTP`
@@ -180,7 +180,7 @@ MailHog captures all emails locally so **nothing leaves the lab**.
 
 ### Step 6: Create Dummy Users
 
-1. Go to **Users & Groups**
+1. Go to Users & Groups
 2. Create group:
 
    ```
@@ -199,7 +199,7 @@ MailHog captures all emails locally so **nothing leaves the lab**.
 
 ### Step 7: Create the Phishing Email Template
 
-1. Go to **Email Templates**
+1. Go to Email Templates
           Email Templates -> New Template.
 
           Name: LinkedIn Password Reset
@@ -240,7 +240,7 @@ Note that: {{.URL}} and {{.FirstName}} are variables GoPhish replaces automatica
 
 ### Step 8: Create the Awareness Landing Page
 
-1. Go to **Landing Pages**
+1. Go to Landing Pages
         Landing Pages -> New Page.
 
         Name: LinkedIn Awareness Training
@@ -286,7 +286,7 @@ Note that: {{.URL}} and {{.FirstName}} are variables GoPhish replaces automatica
 
 ### Step 9: Launch the Campaign
 
-1. Go to **Campaigns**
+1. Go to Campaigns
     Go to Campaigns -> New Campaign.
 
 2. Configure:
@@ -356,7 +356,7 @@ Navigate to campaign results.
 * Compare multiple subject lines and urgency levels
 * Add a simulated “Report Phish” button
 * Analyze email headers in detail
-* Map behavior to **MITRE ATT&CK (T1566 – Phishing)**
+* Map behavior to MITRE ATT&CK (T1566 – Phishing)
 * Introduce role-based awareness messaging
 * Add metrics comparison across campaigns
 
