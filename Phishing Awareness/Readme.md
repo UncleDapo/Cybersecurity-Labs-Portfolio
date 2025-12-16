@@ -367,4 +367,7 @@ Navigate to campaign results.
 
 This project demonstrates defensive security thinking, ethical handling of phishing tools, and strong documentation practices.
 
+
+
+Author: Oladapo Abolurin
 ---
