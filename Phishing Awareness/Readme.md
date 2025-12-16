@@ -65,6 +65,7 @@ GoPhish → MailHog → User Opens Email → Clicks Link → Awareness Page
 ```
 
 📸 *Screenshot:* Architecture diagram
+<img width="1536" height="1024" alt="phishing Architectural diagram" src="https://github.com/user-attachments/assets/9f090985-8cb2-4893-9cfa-130d25cb689f" />
 
 ---
 
