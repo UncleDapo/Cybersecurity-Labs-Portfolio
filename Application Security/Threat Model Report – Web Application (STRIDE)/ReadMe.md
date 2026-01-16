@@ -40,87 +40,122 @@ The Data Flow Diagram (DFD) highlights the critical pathways for data movement w
 Security controls are applied at each trust boundary to preserve confidentiality, integrity, and availability (CIA).
 
 # 🔍 Key Findings by STRIDE Category
-1️⃣ Spoofing
 
-Threats: T-0001, T-0003
-Impact: Unauthorized access, data breaches
-Mitigations: MFA, device binding, digital certificates
+1️⃣ Spoofing (Identity Impersonation)
+- Threats:
+  > Web application spoofing (T-0001)
+  >
+  > Human user impersonation (T-0003)
+  
+- Impact: Unauthorized access, data breaches
 
-2️⃣ Tampering
+- Mitigations:
+  > Enforce Multi-Factor Authentication (MFA) and device binding.
+  > 
+  > Use digital certificates for identity verification.
 
-Threats: T-0002, T-0004, T-0006
-Impact: Data corruption, privilege escalation
-Mitigations: TLS 1.2/1.3, encryption, input validation
+2️⃣ Tampering (Data Modification)
+- Threats:
+  >	SQL database tampering (T-0002, T-0006).
+  >
+  >	HTTP data interception (T-0004).
+  
+- Impact: Data corruption, privilege escalation.
+- Mitigations:
+  >Encrypt sensitive database columns.
+  >
+  >Enforce TLS 1.2/1.3 and input validation.
 
-3️⃣ Repudiation
+3️⃣ Repudiation (Lack of Accountability)
+- Threats:
+  >Users denying actions (T-0019).
+  
+- Impact: Inability to trace malicious activity.
+-	Mitigations:
+>Implement detailed logging and audit trails.
+>
+>	Use cryptographically signed logs.
 
-Threats: T-0009, T-0019
-Impact: Inability to trace malicious activity
-Mitigations: Centralized logging, signed audit logs
-
-4️⃣ Information Disclosure
-
-Threats: T-0024, T-0029, T-0030
-Impact: Exposure of sensitive data
-Mitigations: Error sanitization, encryption, API access validation
+4️⃣ Information Disclosure (Data Exposure)
+- Threats:
+>Sensitive data in error messages (T-0024).
+>
+>Insecure API responses (T-0029).
+- Impact: Leakage of confidential data.
+- Mitigations:
+>Sanitize error messages; disable debug mode in production.
+>
+>Encrypt API responses and validate access controls.
 
 5️⃣ Denial of Service (DoS)
+-	Threats:
+>	Resource exhaustion (T-0011).
+>
+>	SQL database overload (T-0023).
 
-Threats: T-0011, T-0023
-Impact: Application downtime
-Mitigations: Rate limiting, auto-scaling, DDoS protection
+-	Impact: Application downtime.
+-	Mitigations:
+>	Implement rate limiting, auto-scaling, and query optimization.
+>
+>	Use DDoS protection (e.g., AWS Shield).
 
 6️⃣ Elevation of Privilege
+-	Threats:
+>	Unauthorized privilege escalation (T-0014, T-0015).
 
-Threats: T-0014, T-0015
-Impact: Admin-level compromise
-Mitigations: Least privilege, RBAC, SIEM monitoring
+- Impact: Admin-level access compromise for attackers.
+-	Mitigations:
+>	Enforce strict RBAC and least-privilege principles.
+>
+>	Monitor for exploit attempts using SIEM tools.
+
 
 # 🛡️ Top Mitigation Recommendations
-Authentication & Access Control
+- Authentication & Access Control
 
-Enforce MFA and RBAC
+- Enforce MFA and RBAC
 
-Secure APIs using OAuth 2.0
+- Secure APIs using OAuth 2.0
 
-Data Protection
+- Data Protection
 
-Encrypt data at rest and in transit
+- Encrypt data at rest and in transit
 
-Prevent SQLi/XSS via input validation and CSP
+- Prevent SQLi/XSS via input validation and CSP
 
-Monitoring & Resilience
+- Monitoring & Resilience
 
-Enable SIEM and anomaly detection
+- Enable SIEM and anomaly detection
 
-Implement auto-scaling and load balancing
+- Implement auto-scaling and load balancing
 
-Secure Development
+- Secure Development
 
-Use secure cookies (HttpOnly, Secure, SameSite)
+- Use secure cookies (HttpOnly, Secure, SameSite)
 
-Integrate static code analysis into CI/CD
+- Integrate static code analysis into CI/CD
 
 # 📊 Threat Summary Table (Excerpt)
-ID	Category	Risk	Status
-T-0001	Spoofing	App impersonation	Mitigated
-T-0005	Tampering	XSS	Partially Mitigated
-T-0010	Spoofing	NoSQL spoofing	Not Mitigated
-T-0018	Spoofing	Weak API auth	Needs Review
-T-0030	Info Disclosure	NoSQL encryption	Needs Review
+| ID       |	Category  | Risk	Status             |
+|----------|------------|--------------------------|
+| T-0001 | Spoofing	| App impersonation	Mitigated |
+|T-0005 |	Tampering	| XSS	Partially Mitigated |
+|T-0010	| Spoofing	| NoSQL spoofing	Not Mitigated |
+|T-0018	| Spoofing |	Weak API auth	Needs Review |
+|T-0030 |	Info Disclosure |	NoSQL encryption	Needs Review |
 
 Full threat register available in the detailed report.
 
 # 📦 Impacted Assets
 
-Web Application
+- Web Application
 
-SQL Database
+- SQL Database
 
-NoSQL Database
+- NoSQL Database
 
-API Endpoints
+- API Endpoints
 
-Cloud Storage
+- Cloud Storage
 
-Human Users
+- Human Users
