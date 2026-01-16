@@ -1,6 +1,7 @@
 ## Threat Model Report – Web Application (STRIDE)
 
 Author: Oladapo Abolurin
+
 Role: Information Security Officer
 
 # 📌 Executive Summary
